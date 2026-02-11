@@ -1,0 +1,87 @@
+<html>
+   <head>
+     <title>Portfolio Website</title>
+     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+        }
+        nav{
+            padding: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header{
+            border-bottom: 1px solid bisque;
+            background-color: aqua;
+            margin-bottom: 20px;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        .hero{
+            text-align: center;
+            color: white;
+            padding: 100px 20px;
+        }
+        .project-card{
+            background-color: white;
+            max-width: 400px;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+        }
+        .description{
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .buttons{
+            max-width : 400px;
+            margin: 0 auto;
+            display: flex;
+            gap: 20px;
+        }
+
+     </style>
+   </head>
+
+   <body>
+  <header>
+   <nav>
+    <div class="logo">Adnan</div>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+   </nav>
+  </header>
+
+  <section class ="hero">
+    <h1>Adnan Fazi</h1>
+    <p>Discover my projects and skills.</p>
+    <p class="description">As a sophomore at Hong Kong Baptist University and I'm pursuing Math as my major and CS as my minor. I am passionate about continuous learning and exploring new opportunities. My enthusiasm for entrepreneurship fuels my dedication to developing impactful marketing strategies and thrive in environments that challenge me to think outside the box.</p> 
+
+   </section>
+
+   <section class = "projects" id="projects">
+    <h2>Projects</h2>
+    <article class="project-card">
+        <h3 class="project-title">BMI Calculator</h3>
+        <p class="project-description">A simple web application that calculates Body Mass Index (BMI) based on user input of weight and height.</p>
+    </article>
+
+     <div class="buttons">
+       <button id="contact-me">Contact Me</button>
+       <button id="download-resume">Download Resume</button>
+    </div>
+   </section>
+
+   <script src="index.js"></script>
+   </body>
+</html>
