@@ -1,6 +1,8 @@
 body{
             font-family: Arial, sans-serif;
             background-color: black;
+            margin: 0;
+            padding: 0;
 }
 nav{
             padding: 16px;
@@ -9,16 +11,16 @@ nav{
             align-items: center;
 }
 header{
-            border-bottom: 1px solid bisque;
-            background-color: aqua;
-            margin-bottom: 20px;
+            border-bottom: 1px solid grey;
+            background-color: white;
+            width: 100%;
 }
 ul{
             list-style: none;
             display: flex;
             gap: 20px;
 }
-.hero{
+.About{
             text-align: center;
             color: white;
             padding: 100px 20px;
@@ -40,14 +42,11 @@ ul{
             margin: 0 auto;
             display: flex;
             gap: 20px;
+            cursor: pointer;
 }
 .projects-title{
-            background-color: white;
-            font-size: 1.5em;
-            margin: 40px auto;
-            max-width: 115px;
-            padding: 10px;
-            border-radius: 8px;
+            text-align: center;
+            color: white;
 }
 .project-card2{
             background-color: white;
@@ -61,4 +60,20 @@ ul{
             justify-content: center;
             gap: 20px;
             flex-wrap: wrap;
+}
+.projects-container button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.projects-container button:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
 }
