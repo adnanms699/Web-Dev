@@ -15,3 +15,21 @@ bttn.addEventListener("click", ()=>{
     link.target = "_blank"
     link.click();
 });
+
+const webDevbtn = document.getElementById("Web-Dev");
+
+webDevbtn.addEventListener("click", ()=>{
+    let link = document.createElement("a")
+    link.href = "https://github.com/adnanms699/Web-Dev"
+    link.target ="_blank"
+    link.click();
+});
+
+const pythonDataBtn = document.getElementById("Python_Data");
+
+pythonDataBtn.addEventListener("click", ()=>{
+    let link = document.createElement("a")
+    link.href = "https://github.com/adnanms699/Python-for-data-science"
+    link.target = "_blank"
+    link.click();
+});
