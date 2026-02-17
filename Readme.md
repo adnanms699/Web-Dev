@@ -8,8 +8,11 @@ A simple but clean portfolio website I built while learning HTML, CSS, and JavaS
 
 ## 🎨 What's Inside?
 🏠 Home page – quick intro about me
+
 👨‍💻 Projects – stuff I've built (or trying to build!)
+
 📞 Contact – how to reach me
+
 🔗 Social links – let's connect!
 
 ## 🛠️ Built With (The Basics)
