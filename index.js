@@ -41,3 +41,11 @@ Unithrivebtn.addEventListener("click", ()=>{
     link.target = "_blank"
     link.click();
 });
+
+const hackathonBtn = document.getElementById("Hacktheeast");
+hackathonBtn.addEventListener("click", ()=>{
+    let link = document.createElement("a")
+    link.href= "https://www.hacktheeast.com/"
+    link.target = "_blank"
+    link.click();
+});
