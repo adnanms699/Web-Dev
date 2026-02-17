@@ -33,3 +33,11 @@ pythonDataBtn.addEventListener("click", ()=>{
     link.target = "_blank"
     link.click();
 });
+
+const Unithrivebtn =document.getElementById("Uni-Thrive");
+Unithrivebtn.addEventListener("click", ()=>{
+    let link = document.createElement("a")
+    link.href ="https://mindful-campus-9.preview.emergentagent.com/"
+    link.target = "_blank"
+    link.click();
+});
