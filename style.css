@@ -134,6 +134,15 @@ ul li a:hover{
             border : 6px solid cadetblue;
             box-shadow: 0 0 8px cadetblue, 0 0 8px cadetblue inset;
 }
+.experience2{
+            background-color: white;
+            max-width: 400px;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            border : 6px solid cadetblue;
+            box-shadow: 0 0 8px cadetblue, 0 0 8px cadetblue inset;
+}
 .experience-container button{
     background-color: white;
     color: black;
