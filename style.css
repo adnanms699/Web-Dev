@@ -19,20 +19,42 @@ ul{
             list-style: none;
             display: flex;
             gap: 20px;
+            text-decoration: none;
 }
+ul li a{
+            color: cadetblue;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+}
+ul li a:hover{
+            color: black;
+            transform: scale(1.2);
+}
+.logo{
+            font-size: 20px;
+            font-weight: bold;
+}
+.social-icons{
+            display: flex;
+            gap: 20px;
+}
+.social-icons a{
+     color: cadetblue;        
+     font-size: 30px; 
+     text-decoration: none;   
+     transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+            color: black;            
+            transform: scale(1.2);
+}
+
 .About{
             text-align: center;
             color: white;
             padding: 100px 20px;
-}
-.project-card1{
-            background-color: white;
-            max-width: 400px;
-            padding: 20px;
-            margin: 20px;
-            border-radius: 8px;
-            border : 6px solid cadetblue;
-            box-shadow: 0 0 8px cadetblue, 0 0 8px cadetblue inset;
 }
 .description{
             max-width: 600px;
@@ -52,6 +74,15 @@ ul{
 .projects-title{
             text-align: center;
             color: white;
+}
+.project-card1{
+            background-color: white;
+            max-width: 400px;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            border : 6px solid cadetblue;
+            box-shadow: 0 0 8px cadetblue, 0 0 8px cadetblue inset;
 }
 .project-card2{
             background-color: white;
@@ -117,6 +148,10 @@ ul{
     background-color: black;
     color: white;
     transform: scale(1.05);
+}
+.highlight{
+            color: black;
+            font-weight: bold;
 }
 
 @keyframes animate{
