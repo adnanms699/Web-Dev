@@ -14,7 +14,9 @@ A simple but clean portfolio website I built while learning HTML, CSS, and JavaS
 
 ## 🛠️ Built With (The Basics)
 HTML – the skeleton
+
 CSS – the clothes
+
 JS – the brain (well, learning phase!)
 
 ## 🤔 Why I Built This
