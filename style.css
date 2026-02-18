@@ -15,6 +15,13 @@ header{
             background-color: white;
             width: 100%;
 }
+footer{
+            border-top: 4px solid cadetblue;
+            background-color: white;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+}
 ul{
             list-style: none;
             display: flex;
@@ -31,10 +38,6 @@ ul li a:hover{
             color: black;
             transform: scale(1.2);
 }
-.logo{
-            font-size: 20px;
-            font-weight: bold;
-}
 .social-icons{
             display: flex;
             gap: 20px;
@@ -50,7 +53,21 @@ ul li a:hover{
             color: black;            
             transform: scale(1.2);
 }
-
+.type-writer{
+    overflow: hidden;
+    border-right: 3px solid cadetblue;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.08em;
+    animation: 
+        typing 4.5s steps(30, end), 
+        blink-caret 1s step-end infinite;
+    width:fit-content;
+    max-width: fit-content;
+}
+.color{
+            color: cadetblue;
+}
 .About{
             text-align: center;
             color: white;
@@ -75,22 +92,13 @@ ul li a:hover{
             text-align: center;
             color: white;
 }
-.project-card1{
+.project-card{
             background-color: white;
             max-width: 400px;
             padding: 20px;
             margin: 20px;
             border-radius: 8px;
             border : 6px solid cadetblue;
-            box-shadow: 0 0 8px cadetblue, 0 0 8px cadetblue inset;
-}
-.project-card2{
-            background-color: white;
-            max-width: 400px;
-            padding: 20px;
-            margin: 20px;
-            border-radius: 8px;
-            border: 6px solid cadetblue;
             box-shadow: 0 0 8px cadetblue, 0 0 8px cadetblue inset;
 }
 .projects-container{
@@ -111,7 +119,7 @@ ul li a:hover{
 }
 
 .projects-container button:hover {
-    background-color: black;
+    background-color: cadetblue;
     color: white;
     transform: scale(1.05);
 }
@@ -125,16 +133,7 @@ ul li a:hover{
             gap: 20px;
             flex-wrap: wrap;
 }
-.experience1{
-            background-color: white;
-            max-width: 400px;
-            padding: 20px;
-            margin: 20px;
-            border-radius: 8px;
-            border : 6px solid cadetblue;
-            box-shadow: 0 0 8px cadetblue, 0 0 8px cadetblue inset;
-}
-.experience2{
+.experience-card{
             background-color: white;
             max-width: 400px;
             padding: 20px;
@@ -154,16 +153,21 @@ ul li a:hover{
     transition: all 0.3s ease;
 }
 .experience-container button:hover{
-    background-color: black;
+    background-color: cadetblue;
     color: white;
     transform: scale(1.05);
 }
 .highlight{
-            color: black;
+            color: cadetblue;
             font-weight: bold;
 }
 
-@keyframes animate{
-   
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
 
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: cadetblue; }
 }
