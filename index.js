@@ -7,15 +7,6 @@ btn.addEventListener("click", ()=>{
     link.click();
 });
 
-let bttn = document.getElementById("contact-me");
-
-bttn.addEventListener("click", ()=>{
-    let link = document.createElement("a")
-    link.href = "https://www.linkedin.com/in/adnan-fazi"
-    link.target = "_blank"
-    link.click();
-});
-
 const webDevbtn = document.getElementById("Web-Dev");
 
 webDevbtn.addEventListener("click", ()=>{
