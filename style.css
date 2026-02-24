@@ -117,7 +117,7 @@ ul li a:hover{
             color: white;
 }
 .project-card{
-            background-color: white;
+            color: white;
             font-family: 'Times New Roman', Times, serif;
             max-width: 400px;
             padding: 20px;
@@ -159,7 +159,7 @@ ul li a:hover{
             flex-wrap: wrap;
 }
 .experience-card{
-            background-color: white;
+            color:white;
             font-family: 'Times New Roman', Times, serif;
             font-size: 17px;
             max-width: 400px;
