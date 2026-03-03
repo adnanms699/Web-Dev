@@ -199,6 +199,12 @@ ul li a:hover{
             text-align: center;
             color: white;
 }
+.bullets{
+    list-style-type: disc !important;
+    display: block !important;
+    padding-left: 20px;
+    gap: normal;
+}
 
 @keyframes typing {
     from { width: 0; }
