@@ -200,10 +200,16 @@ ul li a:hover{
             color: white;
 }
 .bullets{
-    list-style-type: disc !important;
-    display: block !important;
+    list-style-type: square;
+    display: block;
     padding-left: 20px;
     gap: normal;
+}
+.date {
+    color: cadetblue;
+    font-size: 15px;
+    font-style: italic;
+    margin: 5px 0;
 }
 
 @keyframes typing {
