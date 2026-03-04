@@ -234,6 +234,27 @@ ul li a:hover{
     justify-content: center;
     align-items: center;
 }
+.skill-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.skill-card {
+            color:white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 17px;
+            max-width: 400px;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 8px;
+            border : 6px solid cadetblue;
+            box-shadow: 0 0 8px cadetblue, 0 0 8px cadetblue inset;
+}
+.skill-card-title{
+    text-align: center;
+    font-size: 20px;
+}
 
 @keyframes typing {
     from { width: 0; }
