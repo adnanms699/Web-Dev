@@ -255,6 +255,11 @@ ul li a:hover{
     text-align: center;
     font-size: 20px;
 }
+.blog-title{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
 
 @keyframes typing {
     from { width: 0; }
