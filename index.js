@@ -2,8 +2,8 @@ let btn = document.getElementById("download-resume");
 
 btn.addEventListener("click", ()=>{
     let link = document.createElement("a")
-    link.href = "AdnanFazi_CV.pdf"
-    link.download = "AdnanFazi_CV.pdf"
+    link.href = "Adnanfazi--CV.pdf"
+    link.download = "Adnanfazi--CV.pdf"
     link.click();
 });
 
