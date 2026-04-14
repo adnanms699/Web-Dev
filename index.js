@@ -40,3 +40,11 @@ hackathonBtn.addEventListener("click", ()=>{
     link.target = "_blank"
     link.click();
 });
+
+const enactusBtn = document.getElementById("ENACTUS");
+enactusBtn.addEventListener("click", ()=>{
+    let link = document.createElement("a")
+    link.href= "https://www.linkedin.com/company/enactushongkong/about/"
+    link.target = "_blank"
+    link.click();
+});
