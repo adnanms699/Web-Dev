@@ -211,19 +211,6 @@ ul li a:hover{
     font-style: italic;
     margin: 5px 0;
 }
-.carousel-container {
-    position: relative;
-    margin: 3em auto;
-    display: flex;
-    align-items: center;
-}
-.carousel {
-    display: flex;
-    overflow-x: auto;
-    gap: 20px;
-    scroll-behavior: smooth;
-    padding: 20px 0;
-}
 .card {
     flex: 0 0 20em;
     height: 12em;
