@@ -1,34 +1,39 @@
-let btn = document.getElementById("download-resume");
+const resumeBtn = document.getElementById("download-resume");
 
-btn.addEventListener("click", ()=>{
-    let link = document.createElement("a")
-    link.href = "AdnanfaziCV..pdf"
-    link.download = "AdnanfaziCV..pdf"
-    link.click();
-});
+if (resumeBtn) {
+    resumeBtn.addEventListener("click", () => {
+        const link = document.createElement("a");
+        link.href = "AdnanfaziCV..pdf";
+        link.download = "AdnanfaziCV..pdf";
+        link.click();
+    });
+}
 
 const webDevbtn = document.getElementById("Web-Dev");
-
-webDevbtn.addEventListener("click", ()=>{
-    let link = document.createElement("a")
-    link.href = "https://github.com/adnanms699/Web-Dev"
-    link.target ="_blank"
-    link.click();
-});
+if (webDevbtn) {
+    webDevbtn.addEventListener("click", () => {
+        const link = document.createElement("a");
+        link.href = "https://github.com/adnanms699/Web-Dev";
+        link.target = "_blank";
+        link.click();
+    });
+}
 
 const pythonDataBtn = document.getElementById("Python_Data");
+if (pythonDataBtn) {
+    pythonDataBtn.addEventListener("click", () => {
+        const link = document.createElement("a");
+        link.href = "https://github.com/adnanms699/Python-for-data-science";
+        link.target = "_blank";
+        link.click();
+    });
+}
 
-pythonDataBtn.addEventListener("click", ()=>{
-    let link = document.createElement("a")
-    link.href = "https://github.com/adnanms699/Python-for-data-science"
-    link.target = "_blank"
-    link.click();
-});
 
 const Unithrivebtn =document.getElementById("Uni-Thrive");
 Unithrivebtn.addEventListener("click", ()=>{
     let link = document.createElement("a")
-    link.href ="https://mindful-campus-9.preview.emergentagent.com/"
+    link.href ="https://unithrive-demo-for-workshop.vercel.app/"
     link.target = "_blank"
     link.click();
 });
