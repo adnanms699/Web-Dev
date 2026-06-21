@@ -8,10 +8,12 @@ body{
             padding: 0;
 }
 nav{
-            padding: 16px;
+            padding: 17px;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            margin: 0 auto;
+            width: 100%;
 }
 header{
             background-color: white;
@@ -79,6 +81,18 @@ img {
 }
 .color{
             color: cadetblue;
+}
+.color1{
+            color: cadetblue;
+            font-size: 45px;
+            text-shadow: 3px 3px 6px rgba(95, 158, 160, 0.3);
+}
+.name{
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0;        
+    position: absolute;  
+    left: 40%;
 }
 .About{
             text-align: center;
