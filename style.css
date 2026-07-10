@@ -322,6 +322,15 @@ img {
     font-style: italic;
     font-weight: bold;
 }
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    color: cadetblue;
+    font-size: 28px;
+    cursor: pointer;
+    padding: 8px;
+}
 @keyframes typing {
     from { width: 0; }
     to { width: 100%; }
@@ -331,3 +340,100 @@ img {
     from, to { border-color: transparent; }
     50% { border-color: cadetblue; }
 }
+
+/* Responsive breakpoints */
+@media (max-width: 900px) {
+    header { height: auto; }
+    nav {
+        flex-direction: column;
+        position: relative;
+        align-items: stretch;
+        gap: 10px;
+        padding: 12px;
+    }
+    .social-icons{
+        order: 1;
+        justify-content: center;
+    }
+    .name{
+        position: relative;
+        left: auto;
+        margin: 0;
+        text-align: center;
+        font-size: 26px;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 12px;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    img {
+        width: 220px;
+        height: 220px;
+        margin-left: 0;
+        align-self: center;
+    }
+    .About{
+        padding: 60px 16px;
+    }
+    .type-writer{
+        font-size: 18px;
+        border-right: 2px solid cadetblue;
+    }
+    .description, .descriptio2, .blog-description1, .blog-description2{
+        max-width: 100%;
+        font-size: 16px;
+        text-align: left;
+    }
+    .skills-list{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .skill-card2{
+        padding: 30px;
+        max-width: 100%;
+    }
+    .skill-card1, .skill-card2{
+        margin: 10px;
+    }
+    .projects-container, .experience-container{
+        flex-direction: column;
+        align-items: center;
+    }
+     .hamburger {
+        display: block;
+        position: absolute;
+        top: 12px;
+        right: 12px;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        gap: 12px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    .nav-links.active {
+        display: flex;
+    }
+}
+
+@media (max-width: 480px) {
+    nav{ padding: 10px; }
+    .name{ font-size: 20px; }
+    .social-icons a{ font-size: 22px; }
+    ul{ gap: 10px; }
+    .type-writer{ font-size: 14px; }
+    img{ width: 160px; height: 160px; }
+    .skills-list{ grid-template-columns: 1fr; gap: 0.8em; }
+    .skill-card2{ padding: 20px; }
+    .description, .descriptio2{ font-size: 15px; }
+    .buttons button, .projects-container button, .experience-container button{ padding: 8px 14px; font-size: 14px; }
+}
+    
